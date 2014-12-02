@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resource :upload
+  resource :upload, only: [:show, :create]
 end
