@@ -7,9 +7,12 @@ To better assess a candidates development skills, we would like to provide the f
     
         git clone https://github.com/johnsinco/data-engineering.git
 2. cd into directory
+
         cd data-engineering
 3. ensure you have ruby installed and initialize
+
         bundle install
 3. start rails
+
         rails s
-4. open a browser to [http://localhost:3000/upload]
+4. open a browser to [http://localhost:3000/upload](http://localhost:3000/upload)
