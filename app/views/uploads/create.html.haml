@@ -1,0 +1,7 @@
+.content
+  .baby
+    =image_tag 'success.jpeg'
+  .confirm
+    We've recieved your upload of #{@upload.filename}, #{number_to_currency(@upload.gross)} gross revenue imported.
+  .again
+    =link_to 'Upload another file', upload_path

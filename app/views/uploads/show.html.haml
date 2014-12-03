@@ -2,4 +2,5 @@
   = form_for @upload, url: upload_path do |f|
     %h3 Please upload a data file
     =f.label :file
-    =f.text_field :file
+    =f.file_field :file
+    =f.submit "Upload"
